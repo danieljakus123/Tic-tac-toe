@@ -161,7 +161,7 @@ def win8 (board):
         j=j-1      
     return (win)
 
-def checkWin(board,boardsize):
+def checkWin(board,boardsize): #Calls all of the wincheck functions
     if win1(board) or win2(board) or win3(board) or win4(board) or win5(board) or win6(board) or win7(board) or win8(board):
         #win = True
         print('True')
