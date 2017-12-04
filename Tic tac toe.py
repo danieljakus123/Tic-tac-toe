@@ -50,7 +50,7 @@ def printBoard():
     board = defineBoard(boardsize)
     createBoardLabels(board, boardsize)
     drawBoard(board, boardsize)
-
+ 
 def defineBoard(boardsize):
     board = [[""] * boardsize for i in range(boardsize)]#make the basic (non-drawable) version of theboard
     return board
