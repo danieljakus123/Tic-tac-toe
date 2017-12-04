@@ -75,7 +75,7 @@ def print_labels(counter, board, boardsize):                    #<also draws lin
     print(row)
    
 
- def drawBoard(board, boardsize):                                #<prints blank spaces between the lines>
+def drawBoard(board, boardsize):                                #<prints blank spaces between the lines>
     for i in range(boardsize):
         print_blank(boardsize)
         print_labels(i,board, boardsize)
